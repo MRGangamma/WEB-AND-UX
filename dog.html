@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Daily Sniff - Dog Daycare & Street Dog Fund</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        h1, h2 {
+            color: teal;
+        }
+
+        header {
+            background-color: lightseagreen;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: mintcream;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: teal;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid gray;
+        }
+
+        .button {
+            background-color: teal;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            border: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: mintcream;
+        }
+
+        form {
+            background-color: whitesmoke;
+            padding: 10px;
+            border: 1px solid gray;
+            margin-top: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 6px;
+            margin-top: 4px;
+            border: 1px solid gray;
+        }
+
+        footer {
+            background-color: darkslategray;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 20px;
+        }
+
+        /* Made images smaller */
+        img {
+            display: block;
+            margin: 10px auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Daily Sniff </h1>
+    <p>Dog Daycare and Street Dog Rescue Fund</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#plans">Daycare Plans</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+   
+    <p><b>The Daily Sniff</b> is a warm and friendly daycare where dogs can enjoy a safe and happy environment while their owners are away. Our team takes care of every dog with love, playtime, and proper rest. We provide spacious play areas, comfortable resting spots, and healthy treats to keep tails wagging all day long.</p>
+    <p>We also run a special <b>Street Dog Fund</b> where we use donations to feed, vaccinate, and rescue stray dogs. Every small contribution helps us make a big difference. Our goal is to create a caring community for every dog.</p>
+</section>
+
+<section id="plans">
+    <h2>Our Daycare Plans</h2>
+   
+    <table>
+        <tr>
+            <th>Plan</th>
+            <th>Hours</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Half Day</td>
+            <td>Up to 5 hours</td>
+            <td>Rs. 600</td>
+        </tr>
+        <tr>
+            <td>Full Day</td>
+            <td>Up to 10 hours</td>
+            <td>Rs. 1000</td>
+        </tr>
+        <tr>
+            <td>Monthly</td>
+            <td>20 visits</td>
+            <td>Rs. 16000</td>
+        </tr>
+    </table>
+
+    <h3>Book Your Dog's Stay</h3>
+    <p>Fill in your details below to book a daycare plan for your furry friend.</p>
+
+    <form>
+        <label>Your Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Your Dog's Name:</label>
+        <input type="text" name="dogname" required>
+
+        <label>Select Plan:</label>
+        <select name="plan">
+            <option>Half Day - Rs. 600</option>
+            <option>Full Day - Rs. 1000</option>
+            <option>Monthly - Rs. 16000</option>
+        </select>
+
+        <label>Preferred Date:</label>
+        <input type="date" name="date">
+
+        <label>Any Special Instructions:</label>
+        <textarea name="message"></textarea>
+
+        <br><br>
+        <input type="submit" value="Confirm Booking" class="button">
+    </form>
+</section>
+
+<section id="donate">
+    <h2>Donate to the Street Dog Fund</h2>
+       <p>Every donation helps feed, vaccinate, and care for street dogs. Your support keeps tails wagging and hearts full!</p>
+
+    <form>
+        <label>Your Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Amount (Rs.):</label>
+        <input type="number" name="amount" min="100" step="100">
+
+        <label>Message:</label>
+        <textarea name="message"></textarea>
+
+        <br><br>
+        <input type="submit" value="Donate Now" class="button">
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email:</p>
+<a href="mailto:dailysniff@gmail.com">dailysniff@gmail.com</a>
+    <p>Phone:</p>
+<p> +91 8660626491</p>
+</section>
+
+<footer>
+    <p>© 2025 The Daily Sniff | Helping Dogs Every Day 🐾</p>
+</footer>
+
+</body>
+</html>
